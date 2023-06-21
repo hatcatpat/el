@@ -1,4 +1,4 @@
-#include "el.h"
+#include "../el.h"
 
 #include <stdio.h>
 #include <math.h>
