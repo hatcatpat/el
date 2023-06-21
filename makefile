@@ -1,10 +1,10 @@
 all: el
 
-el: *.c *.h
-	gcc -g -o el *.c -lcairo -lm -ansi -Wall -Wpedantic
+test: *.c *.h
+	gcc -o test *.c -lcairo -lm -ansi -Wall -Wpedantic
 
 run: all
-	./el
+	./test
 
 clean:
-	rm el
+	rm test
